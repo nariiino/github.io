@@ -4,72 +4,100 @@ html{
     font-size: 16px;
 
 }
+@font-face{
+    font-family:'chintzy';
+    src: url('../css/font/chintzy.ttf');
+
+}
 
 body{
     font-family: 'GFS Didot', serif;
     max: width 87.5rem; 
     background: linear-gradient(180deg, #F7F8F8 0%, #41547A 50.52%, #000 100%);
     color: #F7F8F8;
-    line-height:normal ;
+    line-height: 1.5;
     margin: 5rem auto;
-    margin-left: 5rem;
+    
 
 
 }
 
 header{
-    dsiplay flex: ;
-    align-items: center;
-    justify-content: space-between;
+    font-family:'chintzy';
+    grid-area: header;
+
+    
 }
     
 h1{
     font-size: 2rem;
     font-style: normal;
+    font-family: 'chintzy';
     font-weight: 400;
     color:black ;
- }
+}
 
- a{
+img{
+    max-width: 100%;
+    max-height: 640px;
+
+}
+a{
     text-decoration: none;
-    color: black;
+    color: rgb(199, 181, 181);
     margin: 0 0 0 2rem;
  }
 
- a h1:hover{
+a h1:hover{
     color: azure;
  }
 
- a h1:visited{
+a h1:visited{
     color: aquamarine;
  }
 
 
 
-
-
- nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+nav{
     
  }
 
 
-main{
 
+
+main{
+   
+}
+
+section{
+   margin:9.25rem auto;
+   display: grid;
+   grid-template-columns: repeat (12,1fr);
+   grid-column-gap: 1.5rem;
+   grid-auto-flow: dense;
 }
 
 footer{
-    width: 63.875rem;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     color: azure;
+    grid-area: footer;
+
+}
+#byline{
+    text-align: center;
+    grid-column: 2/8;
+}
+
+
+#pro_1{
+    grid-column: 4/10;
+ 
 
 }
 
-.selected{
-    color: azure;
+#d_1{
+    grid-column: 4/5;
+   
+
 }
+
+
