@@ -9,17 +9,15 @@ html{
 .home{
     background-image:linear-gradient(180deg, #F7F8F8 0%,#a0ecff, #41547A 50.52%, #0019a8,#000 100%);
 }
+
 .about{
-    background-image: url(../img/about.gif);
+    background-image: url(../img/gifidk.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
-
-  
-  
+    image-resolution: 1000px; 
 }
   
-
 @font-face{
     font-family:'chintzy';
     src: url('../css/font/chintzy.ttf');
@@ -123,6 +121,15 @@ footer{
     align-items: center;} 
     
 
+
+#hello{
+    color: azure;
+    background-color: #0019a8;
+    padding: 50px;
+    opacity: 50%;
+    font-family:'chintzy'
+    
+}
 #byline{
     text-align: center;
     grid-column: 2/8;
