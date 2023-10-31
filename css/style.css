@@ -2,8 +2,24 @@
 
 html{
     font-size: 16px;
+   
+
 
 }
+.home{
+    background-image:linear-gradient(180deg, #F7F8F8 0%, #41547A 50.52%, #000 100%);
+}
+.about{
+    background-image: url(../img/about.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+  
+  
+}
+  
+
 @font-face{
     font-family:'chintzy';
     src: url('../css/font/chintzy.ttf');
@@ -13,7 +29,6 @@ html{
 body{
     font-family: 'GFS Didot', serif;
     max: width 87.5rem; 
-    background: linear-gradient(180deg, #F7F8F8 0%, #41547A 50.52%, #000 100%);
     line-height: 1.5;
     margin: 5rem auto;
     
@@ -55,14 +70,14 @@ a h1:hover{
  }
 
 a h1:visited{
-    color: aquamarine;
+    color: rgb(51, 70, 166);
  }
  a h2:hover{
     color: azure;
  }
 
 a h2:visited{
-    color: aquamarine;
+    color: rgb(51, 70, 166);
  }
 
 
@@ -102,6 +117,11 @@ footer{
     text-align: center;
 }
 
+#splashgif{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;} 
+    
 
 #byline{
     text-align: center;
