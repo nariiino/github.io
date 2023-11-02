@@ -155,6 +155,10 @@ a h1:visited{
 
  #logoabout{
     filter: drop-shadow(0 0 0.75rem rgb(191, 241, 245));  
+    
+ }
+ #logoabout:hover{
+    animation: bounce 1s;
  }
 
  .contact{
@@ -198,6 +202,7 @@ nav{
 
 
 main{
+    align-items: center;
    margin-left: 150px;
    margin-right: 150px;
 }
@@ -242,6 +247,9 @@ footer{
 #splashgif:hover{
     animation: bounce 1s;
     
+}
+.logo:hover{
+    animation: bounce 1s;
 }
 
 #byline{
