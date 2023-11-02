@@ -231,13 +231,24 @@ filter: grayscale(100%);
 -webkit-transition: all 1s ease;
 z-index: 1;
 position: absolute;
+}
 
 
-
+#overlay2{
+    z-index: 2;
+    width: 100%;
+    margin-left: -100px;
+    margin-top: ;
+    opacity: 60%;
+    filter: drop-shadow(0 0 0.75rem rgb(191, 241, 245));  
 
 
 }
 
+#overlay2:hover{
+    opacity: 100%;
+
+}
 
 #pro_1:hover{
 filter: grayscale(0%);
@@ -264,12 +275,14 @@ transition: 1s ease;
 
 
 #pro_2{
-    grid-column: 4/8;
-    grid-column: 4/8;
-    filter: grayscale(100%);
+align-content: center;
+margin-left: 200px;
+ width: 600px
+filter: grayscale(100%);
 -webkit-filter: grayscale(100%);
 -webkit-transition: all 1s ease;
-    
+z-index: 1;
+position: absolute;  
 }
 
 #pro_2:hover{
@@ -281,17 +294,26 @@ filter:drop-shadow(blue);
 }
 
 #d_2{
-    width: 355px;
-    grid-column: 4/6;
-    
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: 70px;
+     margin-left:200px;
+     position: sticky;
+     
 
 }
 
 #pro_3{
-    grid-column: 4/8;
+    align-content: center;
+    margin-left: 200px;
+     width: 600px
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -webkit-transition: all 1s ease;
+    z-index: 1;
+    position: absolute;  
     
 }
 
@@ -306,8 +328,13 @@ filter:drop-shadow(blue);
 
 
 #d_3{
-    width: 500px;
-    grid-column: 4/5;
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: -300px;
+     margin-left:200px;
+     position: sticky;
 }
 
 #pro_4{
@@ -356,7 +383,6 @@ filter:drop-shadow(blue);
 
 #hello{
     background-color: fade (white, 50%);
- 
     padding: 10px;
 }
 
