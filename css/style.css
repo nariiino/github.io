@@ -8,12 +8,13 @@ html{
 }
 
 .about{
-    background-image: url(../img/gifidk.gif);
-    border-image-width: auto;
-    background-size: 70%;
-    background-repeat: no-repeat;
-    height: 1000px;
-    background-size:cover;
+    background-image: url(../img/snowfall-cold.gif);
+
+
+
+    background-repeat: repeat-x;
+    
+    background-size:contain;
     background-color: #00010f;
     image-resolution: 2000px; 
 }
