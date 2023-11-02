@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+
+html{
+    font-size: 19px;
+}
+.home{
+    background-image:linear-gradient(180deg, #F7F8F8 0%,#d1d5d6, #41547A 50.52%, #0019a8,#000 100%);
+}
+
+.about{
+    background-image: url(../img/gifidk.gif);
+    border-image-width: auto;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-size:contain;
+    background-color: #00010f;
+    image-resolution: 1000px; 
+}
+
+#hello{
+    background-color: #91bbf9;
+   
+    opacity: 50%;
+    filter: blur(20px);
+}
+#hello2{
+    
+    z-index: 1;
+    padding: 20px;
+    font-family:'chintzy';
+}
+
+a .footerabout{
+    color: #F7F8F8;
+    padding: 30px;
+    
+}
+
+a .footerabout:hover{
+    color: #87dff6;
+}
+  
+@font-face{
+    font-family:'chintzy';
+    src: url('../css/font/chintzy.ttf');
+
+}
+
+body{
+    font-family: 'GFS Didot', serif;
+    max: width 87.5rem; 
+    line-height: 1.5;
+    margin: 5rem auto;
+    
+
+
+}
+
+header{
+    font-family:'chintzy';
+    color: royalblue;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+#headerwork{
+    margin-bottom: -420px;
+
+}
+    
+h1{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-family: 'chintzy';
+    font-weight: 400;
+    
+}
+h2{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: 'chintzy';
+    font-weight: 400;
+    
+
+}
+
+h3{
+    font-size: 1.8rem;
+    font-style: normal;
+    font-family: 'chintzy';
+    font-weight: 400;
+    color: #000;
+
+
+}
+
+h4{
+    font-size: 2rem;
+    font-style: normal;
+    font-family: 'chintzy';
+    font-weight: 400;
+
+}
+
+img{
+    max-width: 100%;
+    max-height: 640px;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(49, 79, 161);
+    margin: 0 0 0 2rem;
+ }
+
+ a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+a footer{
+    color: aliceblue;
+}
+a footer:hover{
+    color: rgb(9, 250, 93);
+ }
+
+a h1:visited{
+    color: rgb(51, 70, 166);
+ }
+
+ a .navabout{
+    color: rgb(49, 79, 161);;
+    text-shadow:
+        0 0 7px #87dff6,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px rgb(135, 171, 255),
+        0 0 102px #0fa,
+        0 0 151px rgb(153, 184, 238);
+ }
+
+ #logoabout{
+    filter: drop-shadow(0 0 0.75rem rgb(191, 241, 245));  
+ }
+
+ .contact{
+    margin-top: -100px;
+    margin-left: 3px;
+    
+ }
+ .footercontact{
+    align-items: center;
+    margin-left: 600px;
+    
+ }
+ a .navabout:hover{
+    color: rgb(0, 30, 255);
+   
+
+ }
+ a .footerhome{
+    color: rgb(244, 244, 244);
+ }
+
+ a .footerhome:hover{
+    color: rgb(164, 252, 252);
+
+ }
+
+a h2:visited{
+    color: rgb(51, 70, 166);
+ }
+
+
+
+
+
+
+nav{
+    color:rgb(47, 47, 255)
+    font-family:'chintzy';
+    display: flex;
+    align-items: left; 
+    margin-left: -130px;
+    margin-bottom: 50px;
+ }
+
+
+
+main{
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+section{
+   margin:9.25rem auto;
+   display: grid;
+   grid-template-columns: repeat (12, 1fr);
+   grid-column-gap: 1.5rem;
+   grid-auto-flow: dense;
+
+}
+
+footer{
+    font-family:'chintzy';
+    display: flex;
+    margin-left: 500px;
+    text-align: center;
+}
+
+#splashgif{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;} 
+    
+
+
+
+#byline{
+    margin-top:200px;
+    margin-left:37px ;
+    text-align: left;
+   
+}
+
+#overlay{
+    z-index: 2;
+    width: 100%;
+    margin-left: 500px;
+    margin-top: -300px;
+    opacity: 60%;
+    filter: drop-shadow(0 0 0.75rem rgb(191, 241, 245));  
+
+
+   
+}
+#overlay:hover{
+    opacity: 100%;
+}
+#pro_1{
+align-content: center;
+margin-left: 200px;
+ width: 600px
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+z-index: 1;
+position: absolute;
+}
+
+
+#overlay2{
+    z-index: 2;
+    width: 100%;
+    margin-left: -100px;
+    margin-top: ;
+    opacity: 60%;
+    filter: drop-shadow(0 0 0.75rem rgb(191, 241, 245));  
+
+
+}
+
+#overlay2:hover{
+    opacity: 100%;
+
+}
+
+#pro_1:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+
+
+}
+
+
+
+#d_1{
+    width: 300px;
+   align-text:center;
+    z-index: 1;
+    position: sticky;
+    margin-top: 150px;
+    margin-left:200px;
+    
+
+}
+
+
+#pro_2{
+align-content: center;
+margin-left: 200px;
+ width: 600px
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+z-index: 1;
+position: absolute;  
+}
+
+#pro_2:hover{
+    filter: grayscale(0%);
+filter: rgb(52, 12, 213);
+-webkit-filter: grayscale(0%);
+filter:drop-shadow(blue);
+    transition: 1s ease;
+}
+
+#d_2{
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: 70px;
+     margin-left:200px;
+     position: sticky;
+     
+
+}
+
+#pro_3{
+    align-content: center;
+    margin-left: 200px;
+     width: 600px
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    z-index: 1;
+    position: absolute;  
+    
+}
+
+#pro_3:hover{
+    filter: grayscale(0%);
+    filter: rgb(52, 12, 213);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+        transition: 1s ease;
+    }
+
+
+
+#d_3{
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: -200px;
+     margin-left:200px;
+     position: sticky;
+}
+
+#pro_4{
+    align-content: center;
+    margin-left: 200px;
+     width: 600px
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    z-index: 1;
+    position: absolute;
+    
+}
+#pro_4:hover{
+    filter: grayscale(0%);
+    filter: rgb(52, 12, 213);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+        transition: 1s ease;
+    }
+
+#d_4{
+    color: #fff;
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: 500px;
+     margin-left:200px;
+     position: sticky;
+}
+
+#pro_5{
+    align-content: center;
+    margin-left: 200px;
+     width: 600px
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    z-index: 1;
+    position: absolute;
+}
+
+#pro_5:hover{
+    filter: grayscale(0%);
+    filter: rgb(52, 12, 213);
+    -webkit-filter: grayscale(0%);
+    filter: none;
+        transition: 1s ease;
+    }
+
+#d_5{
+    color: #fff;
+    width: 300px;
+    align-text:center;
+     z-index: 1;
+     position: sticky;
+     margin-top: 200px;
+     margin-left:200px;
+     position: sticky;
+}
+}
+
+
+
+
+
