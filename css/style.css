@@ -13,9 +13,9 @@ html{
     background-size: 70%;
     background-repeat: no-repeat;
     height: 1000px;
-    background-size:contain;
+    background-size:cover;
     background-color: #00010f;
-    image-resolution: 1000px; 
+    image-resolution: 2000px; 
 }
 
 #hello{
